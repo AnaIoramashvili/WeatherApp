@@ -11,6 +11,16 @@
 		598271C92C196BA600C43BF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598271C82C196BA600C43BF7 /* ContentView.swift */; };
 		598271CB2C196BA900C43BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598271CA2C196BA900C43BF7 /* Assets.xcassets */; };
 		598271CE2C196BA900C43BF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598271CD2C196BA900C43BF7 /* Preview Assets.xcassets */; };
+		599C0C552C19FA2900C3FDFF /* RainyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599C0C542C19FA2900C3FDFF /* RainyView.swift */; };
+		599C0C572C19FDB000C3FDFF /* rainFall.sks in Resources */ = {isa = PBXBuildFile; fileRef = 599C0C562C19FDB000C3FDFF /* rainFall.sks */; };
+		599C0C592C1A097B00C3FDFF /* clouds.sks in Resources */ = {isa = PBXBuildFile; fileRef = 599C0C582C1A097B00C3FDFF /* clouds.sks */; };
+		59BAA20A2C1A18D7000FE16B /* SnowyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BAA2092C1A18D7000FE16B /* SnowyView.swift */; };
+		59BAA20C2C1A199F000FE16B /* snowFall.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59BAA20B2C1A199F000FE16B /* snowFall.sks */; };
+		59BAA20E2C1A1B9A000FE16B /* CloudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BAA20D2C1A1B9A000FE16B /* CloudyView.swift */; };
+		59BAA2102C1A1C1D000FE16B /* manyClouds.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59BAA20F2C1A1C1D000FE16B /* manyClouds.sks */; };
+		59BAA2142C1A41B9000FE16B /* SunnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BAA2132C1A41B9000FE16B /* SunnyView.swift */; };
+		59BAA2162C1A46A0000FE16B /* stars.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59BAA2152C1A46A0000FE16B /* stars.sks */; };
+		59BAA2212C1B7D26000FE16B /* myNetworkPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 59BAA2202C1B7D26000FE16B /* myNetworkPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,15 @@
 		598271C82C196BA600C43BF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		598271CA2C196BA900C43BF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		598271CD2C196BA900C43BF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		599C0C542C19FA2900C3FDFF /* RainyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainyView.swift; sourceTree = "<group>"; };
+		599C0C562C19FDB000C3FDFF /* rainFall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = rainFall.sks; sourceTree = "<group>"; };
+		599C0C582C1A097B00C3FDFF /* clouds.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = clouds.sks; sourceTree = "<group>"; };
+		59BAA2092C1A18D7000FE16B /* SnowyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowyView.swift; sourceTree = "<group>"; };
+		59BAA20B2C1A199F000FE16B /* snowFall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = snowFall.sks; sourceTree = "<group>"; };
+		59BAA20D2C1A1B9A000FE16B /* CloudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudyView.swift; sourceTree = "<group>"; };
+		59BAA20F2C1A1C1D000FE16B /* manyClouds.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = manyClouds.sks; sourceTree = "<group>"; };
+		59BAA2132C1A41B9000FE16B /* SunnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnyView.swift; sourceTree = "<group>"; };
+		59BAA2152C1A46A0000FE16B /* stars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = stars.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59BAA2212C1B7D26000FE16B /* myNetworkPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +71,10 @@
 		598271C52C196BA600C43BF7 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				598271C62C196BA600C43BF7 /* WeatherAppApp.swift */,
-				598271C82C196BA600C43BF7 /* ContentView.swift */,
+				59BAA2242C1B7D9F000FE16B /* App */,
+				59BAA2252C1B7DA6000FE16B /* Views */,
+				59BAA2232C1B7D5D000FE16B /* AnimationViews */,
+				59BAA2222C1B7D40000FE16B /* SpriteKit */,
 				598271CA2C196BA900C43BF7 /* Assets.xcassets */,
 				598271CC2C196BA900C43BF7 /* Preview Content */,
 			);
@@ -65,6 +87,45 @@
 				598271CD2C196BA900C43BF7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59BAA2222C1B7D40000FE16B /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				599C0C562C19FDB000C3FDFF /* rainFall.sks */,
+				59BAA20B2C1A199F000FE16B /* snowFall.sks */,
+				599C0C582C1A097B00C3FDFF /* clouds.sks */,
+				59BAA20F2C1A1C1D000FE16B /* manyClouds.sks */,
+				59BAA2152C1A46A0000FE16B /* stars.sks */,
+			);
+			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+		59BAA2232C1B7D5D000FE16B /* AnimationViews */ = {
+			isa = PBXGroup;
+			children = (
+				59BAA2132C1A41B9000FE16B /* SunnyView.swift */,
+				59BAA2092C1A18D7000FE16B /* SnowyView.swift */,
+				59BAA20D2C1A1B9A000FE16B /* CloudyView.swift */,
+				599C0C542C19FA2900C3FDFF /* RainyView.swift */,
+			);
+			path = AnimationViews;
+			sourceTree = "<group>";
+		};
+		59BAA2242C1B7D9F000FE16B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				598271C62C196BA600C43BF7 /* WeatherAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		59BAA2252C1B7DA6000FE16B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				598271C82C196BA600C43BF7 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +144,9 @@
 			dependencies = (
 			);
 			name = WeatherApp;
+			packageProductDependencies = (
+				59BAA2202C1B7D26000FE16B /* myNetworkPackage */,
+			);
 			productName = WeatherApp;
 			productReference = 598271C32C196BA600C43BF7 /* WeatherApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,9 @@
 				Base,
 			);
 			mainGroup = 598271BA2C196BA600C43BF7;
+			packageReferences = (
+				59BAA21F2C1B7D26000FE16B /* XCRemoteSwiftPackageReference "NetWorking-Package" */,
+			);
 			productRefGroup = 598271C42C196BA600C43BF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +192,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				599C0C572C19FDB000C3FDFF /* rainFall.sks in Resources */,
+				59BAA20C2C1A199F000FE16B /* snowFall.sks in Resources */,
+				59BAA2102C1A1C1D000FE16B /* manyClouds.sks in Resources */,
 				598271CE2C196BA900C43BF7 /* Preview Assets.xcassets in Resources */,
 				598271CB2C196BA900C43BF7 /* Assets.xcassets in Resources */,
+				599C0C592C1A097B00C3FDFF /* clouds.sks in Resources */,
+				59BAA2162C1A46A0000FE16B /* stars.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59BAA20E2C1A1B9A000FE16B /* CloudyView.swift in Sources */,
 				598271C92C196BA600C43BF7 /* ContentView.swift in Sources */,
+				59BAA2142C1A41B9000FE16B /* SunnyView.swift in Sources */,
+				59BAA20A2C1A18D7000FE16B /* SnowyView.swift in Sources */,
 				598271C72C196BA600C43BF7 /* WeatherAppApp.swift in Sources */,
+				599C0C552C19FA2900C3FDFF /* RainyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +418,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		59BAA21F2C1B7D26000FE16B /* XCRemoteSwiftPackageReference "NetWorking-Package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AnaIoramashvili/NetWorking-Package";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		59BAA2202C1B7D26000FE16B /* myNetworkPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59BAA21F2C1B7D26000FE16B /* XCRemoteSwiftPackageReference "NetWorking-Package" */;
+			productName = myNetworkPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 598271BB2C196BA600C43BF7 /* Project object */;
 }
